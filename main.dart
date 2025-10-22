@@ -20,14 +20,15 @@ void main() {
   // ];
   // Quiz quiz = Quiz(questions: questions);
 
-  //Load quiz from JSON file
+  //Load quiz from JSON
   QuizRepository repository = QuizRepository('Assets/quiz.json');
   Quiz quiz = repository.readQuiz();
 
   QuizConsole console = QuizConsole(quiz: quiz);
   console.startQuiz();
 
-  // Save quiz with player submissions (BONUS)
+  // Save quiz and player score
   repository.writeQuiz(quiz);
   print('\nQuiz data saved to file!');
 }
+
