@@ -16,7 +16,7 @@ class Question {
     required this.choices,
     required this.goodChoice,
     this.points = 1,
-  }) : id = id ?? uuid.v4(); //AI Help
+  }) : id = id ?? uuid.v4();
 
   Map<String, dynamic> toJson() {
     return {
@@ -170,3 +170,4 @@ class Quiz {
   }
 
 }
+
