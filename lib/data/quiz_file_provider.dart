@@ -7,7 +7,7 @@ class QuizRepository {
 
   QuizRepository(this.filePath);
 
-  // Read Quiz from JSON file
+  // Read Quiz from JSON
   Quiz readQuiz() {
     final file = File(filePath);
     final content = file.readAsStringSync();
@@ -16,11 +16,12 @@ class QuizRepository {
     return Quiz.fromJson(data);
   }
 
-  // Write Quiz to JSON file (BONUS)
+  // Write Quiz to JSON 
   void writeQuiz(Quiz quiz) {
     final file = File(filePath);
     final jsonData = quiz.toJson();
     final jsonString = JsonEncoder.withIndent('  ').convert(jsonData);
     file.writeAsStringSync(jsonString);
   }
+
 }
