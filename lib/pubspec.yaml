@@ -1,0 +1,10 @@
+name: my_first_project
+
+dependencies:
+  uuid: ^4.5.1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0

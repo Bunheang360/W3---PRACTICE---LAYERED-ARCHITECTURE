@@ -1,0 +1,44 @@
+{
+  "id": "76aaa318-9a59-420a-a5e4-98dbb0ac1619",
+  "questions": [
+    {
+      "id": "665c198f-12da-4ba0-bdad-203645603c62",
+      "title": "Capital of France?",
+      "choices": [
+        "Paris",
+        "London",
+        "Rome"
+      ],
+      "goodChoice": "Paris",
+      "points": 10
+    },
+    {
+      "id": "de24697d-1897-4972-b28a-74b22f34329b",
+      "title": "2 + 2 = ?",
+      "choices": [
+        "2",
+        "4",
+        "5"
+      ],
+      "goodChoice": "4",
+      "points": 50
+    }
+  ],
+  "players": [
+    {
+      "name": "Bunheang",
+      "answers": [
+        {
+          "id": "a7979050-4d0d-47ce-8c1a-ca937c5f0988",
+          "questionId": "665c198f-12da-4ba0-bdad-203645603c62",
+          "answerChoice": "London"
+        },
+        {
+          "id": "a077b8f8-13b7-4b8b-8069-fe3ff4f671cc",
+          "questionId": "de24697d-1897-4972-b28a-74b22f34329b",
+          "answerChoice": "4"
+        }
+      ]
+    }
+  ]
+}
